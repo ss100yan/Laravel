@@ -12,7 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $firstName="Stoyan";
+    $lastName="Shivarov";
+    $email="ss100yan@gmail.com";
+    return view('welcome' , compact('firstName','lastName','email'));
+});
+
+Route::get('/about', function () {
+    $firstName="Stoyan";
+    $lastName="Shivarov";
+    $email="ss100yan@gmail.com";
+    return view('about' , compact('firstName','lastName','email'));
 });
 
 

@@ -7,6 +7,15 @@ Hello Laravel its Stoyan!
 @stop
 
 @section('content')
-Hello Laravel its Stoyan!
-
+Hello Laravel!
+<hr>
+Hello Laravel!
+<hr>
+Hello Laravel!
+<hr>
+Hello Laravel!
+<hr>
+Hello Laravel!
+<hr>
+Hello Laravel!
 @endsection

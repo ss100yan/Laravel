@@ -17,7 +17,7 @@
  
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="/about">About</a>
   <a href="/test">Test</a>
 </div>
             <div class="content">
