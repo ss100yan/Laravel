@@ -8,5 +8,5 @@ Hello Laravel its Stoyan!
 
 @section('content')
 Hello Laravel its Stoyan!
-@endsection
 
+@endsection

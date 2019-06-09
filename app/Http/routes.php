@@ -17,5 +17,7 @@ Route::get('/', function () {
 
 
 Route::get('/test', function () {
-    return view('Test');
+    $TestVariable1="TestVariablePassing";
+    $TestVariable2="TestVariablePassing2";
+    return view('Test', compact('TestVariable1','TestVariable2'));
 });

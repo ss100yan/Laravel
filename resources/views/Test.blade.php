@@ -8,5 +8,7 @@ Test!
 
 @section('content')
 Test!
+<h6>{{$TestVariable1}}
+{{$TestVariable2}}</h6>
 @endsection
 
