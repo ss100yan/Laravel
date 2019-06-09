@@ -16,3 +16,7 @@ Route::get('/', 'Stoyan@index');
 Route::get('/about', 'Stoyan@about');
 
 Route::get('/test', 'Stoyan@test');
+
+Route::resource('/contact', 'test');
+
+Route::resource('/users', 'UsersController');
