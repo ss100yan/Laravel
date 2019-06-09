@@ -11,23 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    $firstName="Stoyan";
-    $lastName="Shivarov";
-    $email="ss100yan@gmail.com";
-    return view('welcome' , compact('firstName','lastName','email'));
-});
+Route::get('/', 'Stoyan@index');
 
-Route::get('/about', function () {
-    $firstName="Stoyan";
-    $lastName="Shivarov";
-    $email="ss100yan@gmail.com";
-    return view('about' , compact('firstName','lastName','email'));
-});
+Route::get('/about', 'Stoyan@about');
 
-
-Route::get('/test', function () {
-    $TestVariable1="TestVariablePassing";
-    $TestVariable2="TestVariablePassing2";
-    return view('Test', compact('TestVariable1','TestVariable2'));
-});
+Route::get('/test', 'Stoyan@test');

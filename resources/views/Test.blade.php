@@ -9,7 +9,8 @@ Test!
 @section('content')
 Test!
 <hr>
-<h6>{{$TestVariable1}}
-{{$TestVariable2}}</h6>
+<h6>{{$TestVariable1}}</h6>
+      <hr>
+<h6>{{$TestVariable2}}</h6>
 @endsection
 
