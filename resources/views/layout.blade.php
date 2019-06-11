@@ -14,10 +14,10 @@
         <div class="container">
         <div class="topnav">
   <a class="active" href="/">Home</a>
- 
-  <a href="/users">Users</a>
+    <a href="/users">Users</a>
   <a href="/contact">Contact</a>
   <a href="/about">About</a>
+  <a href="/students">Students</a>
   <a href="/test">Test</a>
 </div>
             <div class="content">

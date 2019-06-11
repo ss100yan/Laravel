@@ -20,3 +20,5 @@ Route::get('/test', 'Stoyan@test');
 Route::resource('/contact', 'test');
 
 Route::resource('/users', 'UsersController');
+
+Route::resource('/students', 'students_controller');
